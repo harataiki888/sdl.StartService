@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/description_text"
         android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toTopOf="@+id/test1_button"
@@ -23,25 +24,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginBottom="108dp"
         android:onClick="onClickTest1"
         android:text="@string/test1_button_label"
         android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toTopOf="@+id/test2_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description_text" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
     <Button
         android:id="@+id/test2_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginBottom="92dp"
         android:onClick="onClickTest2"
         android:text="@string/test2_button_label"
         android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toTopOf="@+id/test3_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.899" />
+
+    <Button
+        android:id="@+id/test3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="onClickTest3"
+        android:text="@string/test3_button_label"
+        android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/test1_button" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

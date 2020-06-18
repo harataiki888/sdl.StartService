@@ -4,4 +4,5 @@
     <string name="description_text">Open Logcat and see what happens</string>
     <string name="test1_button_label">Test1</string>
     <string name="test2_button_label">Test2</string>
+    <string name="test3_button_label">Test3</string>
 </resources>

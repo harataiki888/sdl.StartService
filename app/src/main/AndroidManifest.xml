@@ -18,6 +18,7 @@
 
         <service android:name=".Service1" />
         <service android:name=".Service2" android:exported="false" />
+        <service android:name=".Service3" />
     </application>
 
 </manifest>
